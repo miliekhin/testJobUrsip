@@ -1,0 +1,24 @@
+:root {
+  --gray-80: #5E6366;
+  --gray-60: #919699;
+  --blue-base: #367BF5;
+  --white-base: #FFF;
+  --gray-40: #C6CACC;
+  --dark-color: rgba(0, 0, 0, 0.87);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
